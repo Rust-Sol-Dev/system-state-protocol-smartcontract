@@ -1,0 +1,77 @@
+{
+	"compiler": {
+		"version": "0.8.24+commit.e11b9ed9"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "getPrice",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_newPriceInUSD",
+						"type": "uint256"
+					}
+				],
+				"name": "updatePrice",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Ebrahiem/PLSTokenPriceFeed.sol": "PLSTokenPriceFeed"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Ebrahiem/PLSTokenPriceFeed.sol": {
+			"keccak256": "0xfbc1f33c2e6f78228c9cd32e4383b216e42f9fb7a4a473836a8f24f8eff67031",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://598c7ff240b8b2b2ba2312f43103de940917169c83f97cb3ffc7a4750658341f",
+				"dweb:/ipfs/QmUxsiDJ7dYhJjUpLL2WfpJec4kABx6n1vM1hy5SFTj5Ty"
+			]
+		}
+	},
+	"version": 1
+}
